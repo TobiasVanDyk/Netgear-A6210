@@ -22,3 +22,7 @@ devices, you need to add corresponding VendorID, DeviceID into the file
 
 yields a working WiFi in Mint 19.1
 
+but note the comments here:
+https://forum.level1techs.com/t/solved-netgear-6210-wifi-adapter-not-installing/132183/22
+
+
