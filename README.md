@@ -30,6 +30,7 @@ It needs a sudo service network-manager restart
 to connect
 
 dmesg gives:
+
 [   51.552023] -->RTUSBVendorReset
 [   51.571905] <--RTUSBVendorReset
 [   51.572539] .
@@ -171,5 +172,6 @@ dmesg gives:
 [  142.911945] Start Seq = 00000000
 [  145.990734] Rcv Wcid(1) AddBAReq
 [  145.990737] Start Seq = 00000000
+
 tobias@Mint-Skylake:~$
 
