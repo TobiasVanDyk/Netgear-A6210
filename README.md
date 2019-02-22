@@ -29,8 +29,8 @@ It needs a sudo service network-manager restart
 
 to connect
 
-The steps I followed to install in Mint19.1
-
+The steps I followed to install in Mint 19.1:
+=============================================
 sudo apt-get install git build-essential linux-headers-generic
 sudo apt-get install make gcc libelf-dev
 git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
