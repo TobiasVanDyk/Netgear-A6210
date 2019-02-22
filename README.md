@@ -39,7 +39,7 @@ git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
 
 cd Netgear-A6210
 
-now replace the rtusb_dev_id.c in common with the in this archive
+now replace the rtusb_dev_id.c in common with the file in this archive
 
 make
 
