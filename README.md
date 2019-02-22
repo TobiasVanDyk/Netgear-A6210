@@ -172,6 +172,6 @@ dmesg gives:
 [  142.911945] Start Seq = 00000000
 [  145.990734] Rcv Wcid(1) AddBAReq
 [  145.990737] Start Seq = 00000000
+tobias@Mint-Skylake:~$ 
 
-tobias@Mint-Skylake:~$
 
