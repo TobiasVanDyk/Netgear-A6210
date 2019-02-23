@@ -22,37 +22,28 @@ devices, you need to add corresponding VendorID, DeviceID into the file
 
 {USB_DEVICE(0x0B05, 0x1833), .driver_info = RLT_MAC_BASE}, /* ASUS USB-AC54 */
 
-yields a working WiFi in Mint 19.1
+yields a working Asus USB-AC54 WiFi in Linux Mint 19.1
 
-but note the comments here:
+To compile and install the driver foloow the steps below but also note the comments here:
 https://forum.level1techs.com/t/solved-netgear-6210-wifi-adapter-not-installing/132183/22
 
 It needs a sudo service network-manager restart
 
 to connect
 
-The steps I followed to install in Mint 19.1:
-=============================================
-sudo apt-get install git build-essential linux-headers-generic
+### To install in Mint 19.1:
+* sudo apt-get install git build-essential linux-headers-generic
+* sudo apt-get install make gcc libelf-dev
+* git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
+* cd Netgear-A6210
+* now replace the rtusb_dev_id.c in common with the file in this archive
+* make
+* sudo make install
+* sudo reboot
+* After reboot:
+* sudo service network-manager restart
 
-sudo apt-get install make gcc libelf-dev
-
-git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
-
-cd Netgear-A6210
-
-now replace the rtusb_dev_id.c in common with the file in this archive
-
-make
-
-sudo make install
-
-sudo reboot
-
-
-After reboot sudo service network-manager restart
-
-dmesg gives:
+### dmesg gives:
 
 [   51.552023] -->RTUSBVendorReset
 
