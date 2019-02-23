@@ -20,7 +20,7 @@ The supported chipsets can be present in other devices. To include additional
 devices, you need to add corresponding VendorID, DeviceID into the file 
 "rtusb_dev_id.c"
 
-<b {USB_DEVICE(0x0B05, 0x1833), .driver_info = RLT_MAC_BASE}, /* ASUS USB-AC54 */ /b>
+### {USB_DEVICE(0x0B05, 0x1833), .driver_info = RLT_MAC_BASE}, /* ASUS USB-AC54 */ 
 
 yields a working Asus USB-AC54 WiFi in Linux Mint 19.1
 
