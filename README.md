@@ -20,11 +20,12 @@ The supported chipsets can be present in other devices. To include additional
 devices, you need to add corresponding VendorID, DeviceID into the file 
 "rtusb_dev_id.c"
 
-{USB_DEVICE(0x0B05, 0x1833), .driver_info = RLT_MAC_BASE}, /* ASUS USB-AC54 */
+<b {USB_DEVICE(0x0B05, 0x1833), .driver_info = RLT_MAC_BASE}, /* ASUS USB-AC54 */ /b>
 
 yields a working Asus USB-AC54 WiFi in Linux Mint 19.1
 
-To compile and install the driver foloow the steps below but also note the comments here:
+To compile and install the driver follow the steps below but also note the comments here:
+
 https://forum.level1techs.com/t/solved-netgear-6210-wifi-adapter-not-installing/132183/22
 
 It needs a sudo service network-manager restart
