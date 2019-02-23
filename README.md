@@ -1,4 +1,6 @@
-# Asus USB-AC54
+### Asus USB-AC54
+<img src="https://cdn.rawgit.com/TobiasVanDyk/Netgear-A6210/master/asusac54.jpg" width="300" height="300" />
+
 This driver supports Ralink / Mediatek mt766u, mt7632u and mt7612u chipsets.
 
 In particular, the driver supports several USB dongles such as Netgear-A6210,
