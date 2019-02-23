@@ -1,7 +1,7 @@
 ### Asus USB-AC54
 <img src="https://cdn.rawgit.com/TobiasVanDyk/Netgear-A6210/master/asusac54.jpg" width="300" height="300" />
 
-The ASUS USB-AC54 is a dual-band 802.11ac Wi-Fi adapter with a USB 3.0 connection that brings high-performance wireless networking support to desktop and notebook PCs. The USB-AC54 features a USB 3.0 connection with support for wireless data rates up to 400 Mbps at 2.4 GHz and 867 Mbps at 5 GHz with compatible routers. Suitable for use with both desktop and notebook PCs, the USB-AC55 features a dual internal antenna design for great wireless network coverage with minimal desktop clutter.
+The <a href="https://www.asus.com/Networking/USB-AC54/>ASUS USB-AC54</a> is a dual-band 802.11ac Wi-Fi adapter with a USB 3.0 connection that brings high-performance wireless networking support to desktop and notebook PCs. The USB-AC54 features a USB 3.0 connection with support for wireless data rates up to 400 Mbps at 2.4 GHz and 867 Mbps at 5 GHz with compatible routers. Suitable for use with both desktop and notebook PCs, the USB-AC55 features a dual internal antenna design for great wireless network coverage with minimal desktop clutter.
 ### Features
 * 5th generation 802.11ac chipset gives you dual-band 2.4 GHz / 5 GHz for up to super-fast 867 Mbps
 * 256QAM technology increases wireless-N data rate from 300 Mbps to 400 Mbps for 33% faster performance
@@ -14,7 +14,7 @@ This driver supports Ralink / Mediatek mt766u, mt7632u and mt7612u chipsets.
 In particular, the driver supports several USB dongles such as Netgear-A6210,
 ASUS USB-AC54, ASUS USB-AC55, ASUS USB-N53 and EDUP EP-AC1601. 
 
-Linux kernel version up to 4.15 (as used in Mint 19.1) has been tested.
+<b> Linux kernel version up to 4.15 (as used in Mint 19.1) has been tested. </b>
 
 The supported chipsets can be present in other devices. To include additional 
 devices, you need to add corresponding VendorID, DeviceID into the file 
