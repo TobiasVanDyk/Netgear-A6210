@@ -36,10 +36,12 @@ to connect
 * sudo apt-get install make gcc libelf-dev
 * git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
 * cd Netgear-A6210
+
 Now replace the rtusb_dev_id.c in common with the file in this archive
 * make
 * sudo make install
 * sudo reboot
+
 After reboot:
 * sudo service network-manager restart
 
