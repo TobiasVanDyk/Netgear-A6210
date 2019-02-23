@@ -35,10 +35,10 @@ It needs a sudo service network-manager restart
 to connect
 
 ### To install in Mint 19.1:
-  $ sudo apt-get install git build-essential linux-headers-generic
-  $ sudo apt-get install make gcc libelf-dev
-  $ git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
-  $ cd Netgear-A6210
+    $ sudo apt-get install git build-essential linux-headers-generic
+    $ sudo apt-get install make gcc libelf-dev
+    $ git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
+    $ cd Netgear-A6210
 
 Now replace the rtusb_dev_id.c in the common folder with the file in this archive
 * make
