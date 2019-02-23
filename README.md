@@ -40,7 +40,7 @@ to connect
 * git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
 * cd Netgear-A6210
 
-Now replace the rtusb_dev_id.c in common with the file in this archive
+Now replace the rtusb_dev_id.c in the common folder with the file in this archive
 * make
 * sudo make install
 * sudo reboot
