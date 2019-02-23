@@ -48,7 +48,7 @@ Now replace the rtusb_dev_id.c in the common folder with the file in this archiv
 
 After reboot:
 
-        $ sudo service network-manager restart
+    $ sudo service network-manager restart
 
 ### dmesg gives:
 
