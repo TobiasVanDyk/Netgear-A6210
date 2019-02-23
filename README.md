@@ -41,9 +41,9 @@ to connect
     $ cd Netgear-A6210
 
 Now replace the rtusb_dev_id.c in the common folder with the file in this archive
-* make
-* sudo make install
-* sudo reboot
+    $ make
+    $ sudo make install
+    $ sudo reboot
 
 After reboot:
 * sudo service network-manager restart
