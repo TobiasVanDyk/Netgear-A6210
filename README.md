@@ -16,7 +16,7 @@ ASUS USB-AC54, ASUS USB-AC55, ASUS USB-N53 and EDUP EP-AC1601.
 
 <b> Linux kernel versions 4.15.xx (as used in Mint 19.1) have been tested. </b>
 
-<i> Note that I did use ukuu to install Linux kernels 4.19 and 4.20 in Mint 19.1, which has module support for the Mediatek MT76* devices. Despite this, the Asus AC54 did not work with these kernels - the message was "invalid firmware".</i>
+<i> Note that I did use ukuu to install Linux kernels 4.19 and 4.20 in Mint 19.1, which have module support for the Mediatek MT76* devices. Despite this, the Asus AC54 did not work with these kernels - the message was "invalid firmware".</i>
 
 The supported chipsets can be present in other devices. To include additional devices, you need to add corresponding VendorID, DeviceID into the file rtusb_dev_id.c
 
