@@ -14,17 +14,15 @@ This driver supports Ralink / Mediatek mt766u, mt7632u and mt7612u chipsets.
 In particular, the driver supports several USB dongles such as Netgear-A6210,
 ASUS USB-AC54, ASUS USB-AC55, ASUS USB-N53 and EDUP EP-AC1601. 
 
-<b> Linux kernel versions 4.15.xx (as used in Mint 19.1) has been tested. </b>
+<b> Linux kernel versions 4.15.xx (as used in Mint 19.1) have been tested. </b>
 
-<i> Note that I did use ukuu to install Linux kernels 4.19 and 4.20 in Mint 19.1, which has support for the Mediatek MT76* devices. The Asus AC54 did not work with these kernels.</i>
+<i> Note that I did use ukuu to install Linux kernels 4.19 and 4.20 in Mint 19.1, which has module support for the Mediatek MT76* devices. Despite this, the Asus AC54 did not work with these kernels - the message was "invalid firmware".</i>
 
-The supported chipsets can be present in other devices. To include additional 
-devices, you need to add corresponding VendorID, DeviceID into the file 
-"rtusb_dev_id.c"
+The supported chipsets can be present in other devices. To include additional devices, you need to add corresponding VendorID, DeviceID into the file rtusb_dev_id.c
 
 ### {USB_DEVICE(0x0B05, 0x1833), .driver_info = RLT_MAC_BASE}, /* ASUS USB-AC54 */ 
 
-yields a working Asus USB-AC54 WiFi in Linux Mint 19.1
+This then yields a working Asus USB-AC54 Wi-Fi in Linux Mint 19.1
 
 To compile and install the driver follow the steps below but also note the comments here:
 
