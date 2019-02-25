@@ -14,7 +14,7 @@ This driver supports Ralink / Mediatek mt766u, mt7632u and mt7612u chipsets.
 In particular, the driver supports several USB dongles such as Netgear-A6210,
 ASUS USB-AC54, ASUS USB-AC55, ASUS USB-N53 and EDUP EP-AC1601. 
 
-<b> Linux kernel version up to 4.15 (as used in Mint 19.1) has been tested. </b>
+<b> Linux kernel versions 4.15.xx (as used in Mint 19.1) has been tested. </b>
 
 <i> Note that I did use ukuu to install Linux kernels 4.19 and 4.20 in Mint 19.1, which has support for the Mediatek MT76* devices. The Asus AC54 did not work with these kernels.</i>
 
@@ -30,25 +30,26 @@ To compile and install the driver follow the steps below but also note the comme
 
 https://forum.level1techs.com/t/solved-netgear-6210-wifi-adapter-not-installing/132183/22
 
-It needs a sudo service network-manager restart
+It needs a **sudo service network-manager restart** to load properly, and if previously used on MS Windows, the WiFi dongle also needs a physical replug - this is not necessary if it is a reboot with the Linux firmware already installed.
 
-to connect
+### Steps to install in Mint 19.1:
 
-### To install in Mint 19.1:
     $ sudo apt-get install git build-essential linux-headers-generic
     $ sudo apt-get install make gcc libelf-dev
     $ git clone -b port-to-4.15 https://github.com/kaduke/Netgear-A6210
     $ cd Netgear-A6210
 
-Now replace the rtusb_dev_id.c in the common folder with the file in this archive
+Replace the rtusb_dev_id.c inside the common folder with the file version in this archive
 
     $ make
     $ sudo make install
     $ sudo reboot
 
-After reboot:
+After the reboot:
 
     $ sudo service network-manager restart
+    
+And then wait a few seconds.
 
 ### dmesg gives:
 ```
