@@ -9,10 +9,7 @@ The <b><a href="https://www.asus.com/Networking/USB-AC54/">ASUS USB-AC54</a></b>
 * USB 3.0 connection for high-performance wireless networking with desktop and notebook PCs
 
 ### General
-This driver supports Ralink / Mediatek mt766u, mt7632u and mt7612u chipsets.
-
-In particular, the driver supports several USB dongles such as Netgear-A6210,
-ASUS USB-AC54, ASUS USB-AC55, ASUS USB-N53 and EDUP EP-AC1601. 
+This driver supports Ralink / Mediatek mt766u, mt7632u and mt7612u chipsets. In particular, the driver supports several USB dongles such as Netgear-A6210, ASUS USB-AC54, ASUS USB-AC55, ASUS USB-N53 and EDUP EP-AC1601. 
 
 <b> Linux kernel versions 4.15.xx (as used in Mint 19.1) have been tested. </b>
 
@@ -28,7 +25,7 @@ To compile and install the driver follow the steps below but also note the comme
 
 https://forum.level1techs.com/t/solved-netgear-6210-wifi-adapter-not-installing/132183/22
 
-It needs a **sudo service network-manager restart** to load properly, and if previously used on MS Windows, the WiFi dongle also needs a physical replug - this is not necessary if it is a reboot with the Linux firmware already installed.
+It may need a **sudo service network-manager restart** to load properly, and if previously used on MS Windows, the WiFi dongle may also needs a physical replug - this is not necessary if it is a reboot with the Linux firmware already installed.
 
 ### Steps to install in Mint 19.1:
 
