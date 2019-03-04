@@ -31,6 +31,8 @@ To avoid a physical replug I use a USB 3 Hub with a switch:
 
 <img src="https://github.com/TobiasVanDyk/Netgear-A6210/blob/master/usb3hubswitch.jpg" width="345" height="270" />
 
+This as the added advantage that the dongle aerial is then positioned vertically, which adds to in its radio efficiency.
+
 ### Steps to install in Mint 19.1:
 
     $ sudo apt-get install git build-essential linux-headers-generic
