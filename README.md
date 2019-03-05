@@ -31,7 +31,8 @@ To avoid a physical replug I use a USB 3 Hub with a switch:
 
 <img src="https://github.com/TobiasVanDyk/Netgear-A6210/blob/master/usb3hubswitch.jpg" width="345" height="270" />
 
-This as the added advantage that the dongle aerial is then positioned vertically, which adds to in its radio efficiency.
+This as the added advantage that the dongle aerial is then positioned vertically, which adds to its radio efficiency.
+The Windows 7 drivers supplied on the Asus CD also requires the occasional replug...
 
 ### Steps to install in Mint 19.1:
 
